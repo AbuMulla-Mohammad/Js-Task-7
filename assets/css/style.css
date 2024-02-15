@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+section .card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    color: white;
+    border-radius: 12px;
+    width: calc((100% - 20px)/2);
+    background-color: teal;
+    transition: all 0.5s;
+}
+section .card button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    font-size: 40px;
+    margin: auto;
+    cursor: pointer;
+}
+section .card button:hover{
+    background-color: #ddd;
+}
